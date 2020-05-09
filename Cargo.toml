@@ -1,0 +1,17 @@
+[package]
+name = "script_entry_list_tool"
+version = "1.0.0"
+authors = ["marius851000 <mariusdavid@laposte.net>"]
+edition = "2018"
+description = "A program to import/export to json the file script_entry_list_tool used in pokemon super mystery dungeon"
+repository = "https://github.com/marius851000/script_entry_list_tool"
+keywords = [ "parser", "tool" ]
+categories = [ "command-line-utilities" ]
+license = "CC0-1.0"
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+env_logger = "0.7.1"
+clap = "2.33.0"
+serde_json = "1.0.48"
+pmd_script_entry_list = "1.0.0"
